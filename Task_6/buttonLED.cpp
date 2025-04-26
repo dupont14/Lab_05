@@ -15,7 +15,7 @@ using namespace exploringBB;
 
 int main()
 {
- GPIO button(46);
+ GPIO button(112);
  GPIO LED(60);
  GPIO_VALUE buttonValue;
 

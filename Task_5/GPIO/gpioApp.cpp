@@ -17,6 +17,7 @@ using namespace exploringBB;
 int main()
 {
 	GPIO LED(60);
+	LED.setDirection(OUTPUT);
 	for(int i = 0; i < 3 ; i++)
 	{
 		LED.setValue(HIGH);
